@@ -1,0 +1,51 @@
+<!-- to change content like text use inner html -->
+<html>
+  <body>
+    <h4 id="name">javascript</h4>
+   <button type="button" onclick="document.getElementById('name').innerHTML= 'JS example'" > click here </button>
+</body>
+</html>
+
+<!-- to display date -->
+<p id="demo">hi</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML= Date()"> date</button>
+
+<!-- to change image use document.getElementById('image').src='img.jpg'" -->
+<html>
+<body>
+<img id="image" src="download.jpg" alt="1" /> <br />
+<button type="button" onclick="document.getElementById('image').src='download.jpg'">change image </button>
+<button
+ type="button"
+ onclick="document.getElementById('image').src='rose.png'"
+>
+previous image
+</button>
+</body>
+</html>
+
+<!-- change font size -->
+<html>
+<body>
+<h4>FONT Size</h4>
+<p id="demo">text</p>
+<button type ="button"onclick=document.getElementById('demo').style.fontSize="45px">Click here</button>
+</body>
+</html>
+
+<!-- change text color -->
+<html>
+<body>
+<h4>COLOR</h4>
+<p id="demo">text</p>
+<button type ="button"onclick="document.getElementById('demo').style.color='blue'">Click here to change color</button>
+</body>
+</html>
+
+<!-- to make a text disappear -->
+<html>
+<body>
+<p id="demo">text</p>
+<button type ="button"onclick=document.getElementById('demo').style.display="none">Click here to change color</button>
+</body>
+</html>
