@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+body{
+border:solid;
+padding:0px;
+height:630px;
+}
+header{
+padding:10px;
+}
+p{
+text-align:center;
+}
+.col1{
+width:20%;
+height:440px;
+background-color:#d3d3d3;
+border:2px;
+padding:5px;
+}
+.col2{
+height:440px;
+float:right;
+width:78.5%;
+border:2px;
+padding:5px;
+background-color:#c0c0c0;
+}
+.i{
+position:absolute;
+right:20px;
+bottom:300px;
+z-index:+1;
+}
+figcaption{
+background-color:orange;
+position:absolute;
+right:50px;
+bottom:300px;
+z-index:+1
+}
+footer{
+background-color:black;
+color:white;
+padding:10px;
+}
+</style>
+</head>
+<body>
+<header style="background-color:black;color:white;">
+<p><img style="float:left;" src="..\download.jpg" width="50"><span style="font-size:50px;">Vidyavardhaka College of Engineering</span><button  onclick="document.location='https://www.vvce.ac.in'" style="float:right;height:40px;width:60px;" type="button">button</button></p>
+</header>
+
+<div class="col2">
+<article style="font-size:15px;font-family:arial;text-align:justify;">Vidyavardhaka Sangha (VVS) stands as a synonym for quality education in the heritage city of Mysuru. VVS was established in 1949 by great visionaries namely Late Sahukar Channaiah and Late. K. Puttaswamy (Former Minister of Karnataka) to impart quality education to all sections of the society. There are ten educational institutions starting from nursery to engineering college under the aegis of VVS. At present, VVS is under the able guidance and leadership of Sri Gundappa Gowda, President, Sri Shivalingappa B, Vice President, Sri P. Vishwanath, Secretary and Sri S N Lakshminarayana, Treasurer.
+ </article >
+<section style="color:red;">Vidyavardhaka Sangha (VVS) was established in 1949 by freedom fighters, philanthropists and visionary leaders namely Late Sahukar Channaiah and Late. K. Puttaswamy (Former Minister of Karnataka). VVS is a reputed and well established organization in Mysuru. VVS is managed by a managing committee consisting of  21 Members who work on honorary basis. VVS runs 10 educational institutions including Vidyavardhaka College of Engineering (VVCE). At present, VVS is under the able guidance and leadership of Sri Gundappa Gowda, President, Sri Shivalingappa B, Vice President, Sri P. Vishwanath, Secretary and Sri S N Lakshminarayana, Treasurer.</section>
+<img class="i" src="..\car.jpg" width="100">
+<figcaption>image</figcaption></img>
+</div>
+
+<div class="col1">
+<ul>
+<li>CSE</li>
+<li>ISE</li>
+<li>EEE</li>
+<li>ECE</li>
+<li>CV</li>
+
+</ul>
+</div>
+
+<footer>
+<p>Developed by SHARANYA V</p>
+</footer>
+
+</body>
+</html>
