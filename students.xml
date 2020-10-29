@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<studentsinfo>
+<student>
+<usn>4VV17CS0109</usn>
+<name>Sharanya.V</name>
+<college>VVCE</college>
+<branch>CSE</branch>
+<year>2017</year>
+<email>sharanyav74@gmail.com</email>
+</student>
+<student>
+<usn>4VV17CS108</usn>
+<name>Uthkarsh Sanjay</name>
+<college>VVCE</college>
+<branch>CSE</branch>
+<year>2017</year>
+<email>Uthkarshsanjay@gmail.com</email>
+</student>
+<student>
+<usn>4VV17CS123</usn>
+<name>Amyra</name>
+<college>VVCE</college>
+<branch>CSE</branch>
+<year>2017</year>
+<email>amy@gmail.com</email>
+</student>
+</studentsinfo>
